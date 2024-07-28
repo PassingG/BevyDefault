@@ -1,0 +1,16 @@
+[package]
+name = "wise_editor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.14.0"
+bevy-inspector-egui = "0.25.1"
+egui = "0.28.1"
+bevy_egui = "0.28.0"
+egui_dock = "0.13.0"
+transform-gizmo-egui = "0.3.0"
+wise_generic = { path = "../wise_generic" }
+
+[lib]
+crate-type = ["rlib"]
